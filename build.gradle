@@ -1,0 +1,63 @@
+group 'co.com.your_company.certification'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'net.serenity-bdd.aggregator'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+    mavenLocal()
+    jcenter()
+}
+
+buildscript {
+    repositories {
+        mavenCentral()
+        mavenLocal()
+        jcenter()
+    }
+    dependencies {
+        classpath("net.serenity-bdd:serenity-gradle-plugin:2.0.84")
+    }
+}
+
+ext{
+    serenityVersion = '2.0.84'
+    serenityCucumberVersion = '1.9.45'
+}
+
+dependencies {
+    compile 'net.serenity-bdd:serenity-screenplay:1.9.45'
+    compile group: 'net.serenity-bdd', name: 'serenity-screenplay-rest', version:'2.0.15'
+
+
+
+
+    implementation group: 'net.serenity-bdd', name: 'serenity-screenplay-rest', version: '2.6.0'
+    implementation 'junit:junit:4.12'
+    implementation group: 'org.apache.maven', name: 'maven-plugin-api', version: '3.8.2'
+    implementation group: 'org.apache.maven.plugins', name: 'maven-javadoc-plugin', version: '3.3.0'
+
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    testCompile 'net.serenity-bdd:serenity-core:1.9.45'
+    testCompile 'net.serenity-bdd:serenity-junit:1.9.45'
+    testCompile 'org.hamcrest:hamcrest-all:1.3'
+    testCompile 'org.hamcrest:hamcrest-core:1.3'
+    testCompile 'org.junit.jupiter:junit-jupiter-api:5.3.1'
+
+
+    compileOnly group: 'org.apache.maven.plugin-tools', name: 'maven-plugin-annotations', version: '3.6.1'
+
+
+    testImplementation group: 'org.apache.maven.plugins', name: 'maven-failsafe-plugin', version: '3.0.0-M5'
+}
+
+tasks.withType(Test){
+    systemProperties = System.properties
+    maxParallelForks = Runtime.runtime.availableProcessors()
+}
+
+gradle.startParameter.continueOnFailure = true
