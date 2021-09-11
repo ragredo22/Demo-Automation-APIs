@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8"/>
-    <title>Post userwith model</title>
+    <title>Get users</title>
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
@@ -125,7 +125,7 @@
         <span class="breadcrumbs">
             <a href="index.html" class="breadcrumbs">Home</a>
 
-        > Post userwith model
+        > Get users
         </span>
         </div>
         <div class="rightbg"></div>
@@ -143,7 +143,7 @@
             <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 11-09-2021 17:35</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 11-09-2021 17:38</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -175,7 +175,7 @@
                             <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
                             <span class="test-case-title">
                                 <span class="success-color">
-                                    Post userwith model
+                                    Get users
                                         <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -185,47 +185,6 @@
                 </table>
             </div>
 
-
-                <!-- CAST MEMBERS -->
-                <div>&nbsp;</div>
-                <div class="story-title">
-                    <table class="outcome-header">
-                        <tr>
-                            <td>
-                                <div>
-                                    <h3 class="discreet-story-header">
-                                        <i class="fa fa-2x fa-users"></i>
-                                        <span class="story-header-title">
-                                            <a class="btn btn-primary" data-toggle="collapse" href="#castDetails"
-                                               role="button" aria-expanded="true" aria-controls="castDetails">Cast</a>
-                                        </span>
-                                    </h3>
-
-                                    <div class="cast-member collapse" id="castDetails">
-                                        <table class="cast">
-                                            <tr>
-                                                    <td width="100%">
-                                                        <h4>
-                                                            <i class="fa fa-2x fa-user-o"></i>&nbsp;<span>Rhonal</span>
-                                                            <h4>
-                                                                <p></p>
-                                                                <ul>
-                                                                        <li><strong>Rhonal can:</strong>
-                                                                            <ul>
-                                                                                    <li>call an API at http://localhost:5000/api</li>
-                                                                            </ul>
-                                                                        </li>
-                                                                </ul>
-                                                    </td>
-                                            </tr>
-                                        </table>
-                                    </div>
-                                </div>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-                <!-- END CAST MEMBERS -->
 
 
         </div>
@@ -270,7 +229,7 @@
                                 <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
                                    style="display:block;">
                                     <span class="top-level-step">
-                                                Rhonal post users
+                                                Rhonal get users
                                         </span>
                                 </a>
                                 <span class="evidence">
@@ -279,7 +238,7 @@
                         </td>
 
                         <td width="130"><span class="top-level-step">SUCCESS</span></td>
-                        <td width="100"><span class="top-level-step">087ms</span></td>
+                        <td width="100"><span class="top-level-step">212ms</span></td>
                     </tr>
                         <tr>
                             <td colspan="5">
@@ -300,7 +259,7 @@
                                 <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0-0')"
                                    style="display:block;">
                                     <span class="nested-step">
-                                                Rhonal executes a POST on the resource /register
+                                                Rhonal executes a GET on the resource /users?page=1
                                         </span>
                                 </a>
                                 <span class="evidence">
@@ -309,7 +268,7 @@
                         </td>
 
                         <td width="130"><span class="nested-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-step">078ms</span></td>
+                        <td width="100"><span class="nested-step">199ms</span></td>
                     </tr>
                         <tr>
                             <td colspan="5">
@@ -326,7 +285,7 @@
                         <td class="step-description-column">
                             <div class="step-description">
                                     <span class="nested-group-step">
-                                                POST http://localhost:5000/api/register
+                                                GET http://localhost:5000/api/users?page=1
                                         </span>
                                 <span class="evidence">
                                         <span class="piece-of-evidence">
@@ -342,19 +301,19 @@
                             <div class="card">
                                 <div class="card-body">
                                     <h4>Response</h4>
-                                        <p>URL: http://localhost:5000/api/register</p>
+                                        <p>URL: http://localhost:5000/api/users?page=1</p>
                                         <p>Status code: 200</p>
-                                        <p>Content Type: application/json</p>
+                                        <p>Content Type: null</p>
                                         <h4>Request Headers</h4>
-                                        <pre>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
+                                        <pre>Accept=*/*</pre>
                                         <h4>Content Body</h4>
-                                        <pre>{<br>    &quot;name&quot;: &quot;Rhonal&quot;,<br>    &quot;job&quot;: &quot;Tester&quot;,<br>    &quot;email&quot;: &quot;emma.wong@reqres.in&quot;,<br>    &quot;password&quot;: &quot;Pruebas&quot;<br>}</pre>
+                                        <pre></pre>
                                         <h4>Request Cookies</h4>
                                         <pre></pre>
                                         <h4>Response Headers</h4>
-                                        <pre>X-Powered-By: Express<br>Access-Control-Allow-Origin: *<br>Content-Type: application/json; charset=utf-8<br>Content-Length: 36<br>ETag: W/&quot;24-hVGygsFtGWeMvVNQ0QgXh1uPYoE&quot;<br>Date: Sat, 11 Sep 2021 22:35:27 GMT<br>Connection: keep-alive<br>Keep-Alive: timeout=5</pre>
+                                        <pre>X-Powered-By: Express<br>Access-Control-Allow-Origin: *<br>Content-Type: application/json; charset=utf-8<br>Content-Length: 539<br>ETag: W/&quot;21b-fFOA+z2p0qqZtiTcYG5d6jtK5Cs&quot;<br>Date: Sat, 11 Sep 2021 22:38:24 GMT<br>Connection: keep-alive<br>Keep-Alive: timeout=5</pre>
                                     <h4>Response Body</h4>
-                                        <pre>{<br>    &quot;id&quot;: 3,<br>    &quot;token&quot;: &quot;QpwL5tke4Pnpja7X3&quot;<br>}</pre>
+                                        <pre>{<br>    &quot;page&quot;: 1,<br>    &quot;per_page&quot;: 3,<br>    &quot;total&quot;: 12,<br>    &quot;total_pages&quot;: 4,<br>    &quot;data&quot;: [<br>        {<br>            &quot;id&quot;: 1,<br>            &quot;email&quot;: &quot;george.bluth@reqres.in&quot;,<br>            &quot;first_name&quot;: &quot;George&quot;,<br>            &quot;last_name&quot;: &quot;Bluth&quot;,<br>            &quot;avatar&quot;: &quot;https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg&quot;<br>        },<br>        {<br>            &quot;id&quot;: 2,<br>            &quot;email&quot;: &quot;janet.weaver@reqres.in&quot;,<br>            &quot;first_name&quot;: &quot;Janet&quot;,<br>            &quot;last_name&quot;: &quot;Weaver&quot;,<br>            &quot;avatar&quot;: &quot;https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg&quot;<br>        },<br>        {<br>            &quot;id&quot;: 3,<br>            &quot;email&quot;: &quot;emma.wong@reqres.in&quot;,<br>            &quot;first_name&quot;: &quot;Emma&quot;,<br>            &quot;last_name&quot;: &quot;Wong&quot;,<br>            &quot;avatar&quot;: &quot;https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg&quot;<br>        }<br>    ]<br>}</pre>
                                 </div>
                             </div>
                         </div>
@@ -365,7 +324,7 @@
                         </td>
 
                         <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step"></span></td>
+                        <td width="100"><span class="nested-group-step">001ms</span></td>
                     </tr>
 
                                 </table>
@@ -387,7 +346,7 @@
                         <td class="step-description-column">
                             <div class="step-description">
                                     <span class="top-level-step">
-                                                Then El codigo de respuesta:  should be (200)
+                                                Then Usuario no es nulo should be not null
                                         </span>
                                 <span class="evidence">
                                 </span>
@@ -395,12 +354,34 @@
                         </td>
 
                         <td width="130"><span class="top-level-step">SUCCESS</span></td>
-                        <td width="100"><span class="top-level-step">001ms</span></td>
+                        <td width="100"><span class="top-level-step">002ms</span></td>
+                    </tr>
+                    <tr class="test-SUCCESS">
+
+                        <td width="50" class="step-icon">
+                            <a name="2"></a>
+                                <span style="margin-left: 20px;"
+                                      class="top-level-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                </span>
+                        </td>
+
+                        <td class="step-description-column">
+                            <div class="step-description">
+                                    <span class="top-level-step">
+                                                Then El Email del usuario should be 'george.bluth@reqres.in'
+                                        </span>
+                                <span class="evidence">
+                                </span>
+                            </div>
+                        </td>
+
+                        <td width="130"><span class="top-level-step">SUCCESS</span></td>
+                        <td width="100"><span class="top-level-step">003ms</span></td>
                     </tr>
                 <tr class="test-SUCCESS">
                         <td colspan="2"></td>
                     <td width="130"><span class="top-level-step"><em>SUCCESS</em></span></td>
-                    <td width="100"><span class="top-level-step"><em>0.12s</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>0.68s</em></span></td>
                 </tr>
 
             </table>

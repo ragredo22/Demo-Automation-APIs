@@ -2,43 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="feef44f8-8442-45f0-9e66-ff6e6c66427e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/PutUsersModels.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/RegisterUserInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/PostUsers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/PutUsers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/DeleteUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/e/3e5259bd83367a0aa2cee1a5244569c6d8df3b24" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/e/3e5259bd83367a0aa2cee1a5244569c6d8df3b24" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/1/71b9eedc2c31480e0ef9edfe7ba05acf4e2b86e1" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/1/71b9eedc2c31480e0ef9edfe7ba05acf4e2b86e1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/e/ae24527271b24e0984363030a9bb0d6996ac0dcf" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/e/ae24527271b24e0984363030a9bb0d6996ac0dcf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/SerenityInitialTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/SerenityInitialTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/models/Datum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/models/Datum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/models/Users.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/models/Users.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/questions/GetUsersQuestion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/questions/GetUsersQuestion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/questions/ResponseCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/questions/ResponseCode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SerenityInitialTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SerenityInitialTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/Datum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Datum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Users.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/questions/GetUsersQuestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/questions/GetUsersQuestion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/questions/ResponseCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/questions/ResponseCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/44bac3e521820bdac967c766c40877a831a7749676fdcc1ae96aaaf51ee16ccc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/44bac3e521820bdac967c766c40877a831a7749676fdcc1ae96aaaf51ee16ccc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/688e63ea30ebcc3a7b9dbdd35f3336352f2a3ef6345cb2ce7d438251c0f53319.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/688e63ea30ebcc3a7b9dbdd35f3336352f2a3ef6345cb2ce7d438251c0f53319.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-44bac3e521820bdac967c766c40877a831a7749676fdcc1ae96aaaf51ee16ccc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-688e63ea30ebcc3a7b9dbdd35f3336352f2a3ef6345cb2ce7d438251c0f53319.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/flow/serenity.configuration.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/serenity-resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/1c2407a87bd0f1c43feafde98d4168f3d7d81a6b5734bcc5dff63d48b23ac969.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/1c2407a87bd0f1c43feafde98d4168f3d7d81a6b5734bcc5dff63d48b23ac969.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/1c2407a87bd0f1c43feafde98d4168f3d7d81a6b5734bcc5dff63d48b23ac969.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/1c2407a87bd0f1c43feafde98d4168f3d7d81a6b5734bcc5dff63d48b23ac969.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/3494fd12e10da44ac7e07271c8f8430cc7cd5f90def4a7dd77196e8e01af8301.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/3494fd12e10da44ac7e07271c8f8430cc7cd5f90def4a7dd77196e8e01af8301.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/53ea2f98bae133b5a569e966a1917d4745d1d25a88a7e93032e979eb35b782b9.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/53ea2f98bae133b5a569e966a1917d4745d1d25a88a7e93032e979eb35b782b9.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/53ea2f98bae133b5a569e966a1917d4745d1d25a88a7e93032e979eb35b782b9.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/53ea2f98bae133b5a569e966a1917d4745d1d25a88a7e93032e979eb35b782b9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/a59528471c84dc1053f57c4717af3692ec8b801c49ae12a9d7fe410631f70a12.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/a59528471c84dc1053f57c4717af3692ec8b801c49ae12a9d7fe410631f70a12.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/build-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/build-info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/capabilities.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/capabilities.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/ef813d702081b6c5dced30f9c4b64275544251fef85a4d85a09210882676ab0b.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/ef813d702081b6c5dced30f9c4b64275544251fef85a4d85a09210882676ab0b.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/ef813d702081b6c5dced30f9c4b64275544251fef85a4d85a09210882676ab0b.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/ef813d702081b6c5dced30f9c4b64275544251fef85a4d85a09210882676ab0b.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/results.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/results.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/summary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/summary.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -94,24 +80,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/SerenityInitialTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="121" column="9" selection-start-line="121" selection-start-column="9" selection-end-line="121" selection-end-column="9" />
+            <state relative-caret-position="105">
+              <caret line="141" column="95" selection-start-line="141" selection-start-column="95" selection-end-line="141" selection-end-column="95" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tasks/GetUsers.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="25" column="62" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="62" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#446#447#0" expanded="true" />
-                <element signature="e#504#505#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -141,11 +113,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/tasks/PostUsers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-132">
+              <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -157,10 +126,6 @@
               <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#432#433#0" expanded="true" />
-                <element signature="e#477#478#0" expanded="true" />
-                <element signature="e#341#342#0" expanded="true" />
-                <element signature="e#368#369#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -169,17 +134,36 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/models/PutUsersModels.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
+            <state relative-caret-position="264">
               <caret line="18" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tasks/DeleteUser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
               <folding>
-                <element signature="e#120#121#0" expanded="true" />
-                <element signature="e#147#148#0" expanded="true" />
-                <element signature="e#187#188#0" expanded="true" />
-                <element signature="e#219#220#0" expanded="true" />
-                <element signature="e#249#250#0" expanded="true" />
-                <element signature="e#275#276#0" expanded="true" />
-                <element signature="e#313#314#0" expanded="true" />
-                <element signature="e#343#344#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#323#324#0" expanded="true" />
+                <element signature="e#351#352#0" expanded="true" />
+                <element signature="e#316#317#0" expanded="true" />
+                <element signature="e#373#374#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-screenplay-rest/2.6.0/c77466e46446b8699c98bf3cbded015ac24737d6/serenity-screenplay-rest-2.6.0-sources.jar!/net/serenitybdd/screenplay/rest/interactions/Delete.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+              <folding>
+                <element signature="e#783#784#0" expanded="true" />
+                <element signature="e#842#843#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -209,6 +193,7 @@
         <option value="$PROJECT_DIR$/src/main/java/models/RegisterUserInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/tasks/PutUsers.java" />
         <option value="$PROJECT_DIR$/src/main/java/models/PutUsers.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tasks/DeleteUser.java" />
         <option value="$PROJECT_DIR$/src/main/java/SerenityInitialTests.java" />
       </list>
     </option>
@@ -221,10 +206,39 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="PackagesPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="TestApiRest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestApiRest" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestApiRest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestApiRest" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestApiRest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestApiRest" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="site" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestApiRest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestApiRest" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="site" type="462c0819:PsiDirectoryNode" />
+              <item name="serenity" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -260,17 +274,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="TestApiRest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestApiRest" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -294,7 +297,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SerenityInitialTests.postUserwithModelFail">
+  <component name="RunManager" selected="JUnit.SerenityInitialTests.deleteUser">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -307,42 +310,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestApiRest [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="clean" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="SerenityInitialTests.getUsers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SerenityInitialTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestApiRest.main" />
+      <shortenClasspath name="MANIFEST" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SerenityInitialTests" />
-      <option name="METHOD_NAME" value="getUsers" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SerenityInitialTests.postUserwithModel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SerenityInitialTests.deleteUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestApiRest.main" />
       <shortenClasspath name="MANIFEST" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SerenityInitialTests" />
-      <option name="METHOD_NAME" value="postUserwithModel" />
+      <option name="METHOD_NAME" value="deleteUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SerenityInitialTests.getUsers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestApiRest.main" />
+      <shortenClasspath name="MANIFEST" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SerenityInitialTests" />
+      <option name="METHOD_NAME" value="getUsers" />
       <option name="TEST_OBJECT" value="method" />
       <option name="PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -399,11 +398,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SerenityInitialTests.deleteUser" />
+        <item itemvalue="JUnit.SerenityInitialTests" />
+        <item itemvalue="JUnit.SerenityInitialTests.getUsers" />
         <item itemvalue="JUnit.SerenityInitialTests.postUserwithModelFail" />
         <item itemvalue="JUnit.SerenityInitialTests.putUserWithModel" />
-        <item itemvalue="JUnit.SerenityInitialTests.getUsers" />
-        <item itemvalue="JUnit.SerenityInitialTests.postUserwithModel" />
-        <item itemvalue="Gradle.TestApiRest [clean]" />
       </list>
     </recent_temporary>
   </component>
@@ -421,27 +420,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SerenityInitialTests_postUser - 2021.09.11 at 15h 53m 12s.xml">
-      <configuration name="SerenityInitialTests.postUser" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SerenityInitialTests_postUser - 2021.09.11 at 15h 57m 33s.xml">
-      <configuration name="SerenityInitialTests.postUser" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SerenityInitialTests_postUser - 2021.09.11 at 16h 03m 42s.xml">
-      <configuration name="SerenityInitialTests.postUser" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SerenityInitialTests_postUser - 2021.09.11 at 16h 05m 14s.xml">
-      <configuration name="SerenityInitialTests.postUser" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SerenityInitialTests_postUser - 2021.09.11 at 16h 06m 54s.xml">
-      <configuration name="SerenityInitialTests.postUser" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SerenityInitialTests_postUser - 2021.09.11 at 16h 11m 48s.xml">
-      <configuration name="SerenityInitialTests.postUser" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SerenityInitialTests_postUserwithModel - 2021.09.11 at 16h 25m 57s.xml">
-      <configuration name="SerenityInitialTests.postUserwithModel" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SerenityInitialTests_postUserwithModelFail - 2021.09.11 at 16h 29m 33s.xml">
       <configuration name="SerenityInitialTests.postUserwithModelFail" configurationId="JUnit" />
     </history-entry>
@@ -451,12 +429,33 @@
     <history-entry file="SerenityInitialTests_postUserwithModel - 2021.09.11 at 16h 41m 05s.xml">
       <configuration name="SerenityInitialTests.postUserwithModel" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SerenityInitialTests_getUsers - 2021.09.11 at 17h 10m 36s.xml">
+      <configuration name="SerenityInitialTests.getUsers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SerenityInitialTests - 2021.09.11 at 17h 11m 18s.xml">
+      <configuration name="SerenityInitialTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SerenityInitialTests - 2021.09.11 at 17h 19m 01s.xml">
+      <configuration name="SerenityInitialTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SerenityInitialTests - 2021.09.11 at 17h 33m 32s.xml">
+      <configuration name="SerenityInitialTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SerenityInitialTests - 2021.09.11 at 17h 38m 31s.xml">
+      <configuration name="SerenityInitialTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SerenityInitialTests_deleteUser - 2021.09.11 at 17h 46m 14s.xml">
+      <configuration name="SerenityInitialTests.deleteUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SerenityInitialTests_deleteUser - 2021.09.11 at 17h 47m 28s.xml">
+      <configuration name="SerenityInitialTests.deleteUser" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49824563" visible="true" weight="0.21558245" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49824563" visible="true" weight="0.13086233" />
       <window_info id="Structure" order="1" sideWeight="0.5017544" side_tool="true" weight="0.25718608" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -465,17 +464,17 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.54931974" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.27380952" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.43537414" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.38265306" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.6020408" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32993197" />
       <window_info anchor="bottom" id="SonarLint" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.05102041" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.29421768" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.32993197" />
       <window_info anchor="bottom" id="Build" order="11" sideWeight="0.4977307" weight="0.19387755" />
-      <window_info active="true" anchor="bottom" id="Messages" order="12" sideWeight="0.49848714" visible="true" weight="0.20068027" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49848714" weight="0.20068027" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -526,6 +525,12 @@
           <line>32</line>
           <properties />
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-screenplay-rest/2.6.0/c77466e46446b8699c98bf3cbded015ac24737d6/serenity-screenplay-rest-2.6.0-sources.jar!/net/serenitybdd/screenplay/rest/interactions/Delete.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -579,28 +584,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tasks/GetUsers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="25" column="62" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
-            <element signature="e#504#505#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/questions/GetUsersQuestion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="15" column="16" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -663,51 +646,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tasks/PostUsers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/PutUsersModels.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#120#121#0" expanded="true" />
-            <element signature="e#147#148#0" expanded="true" />
-            <element signature="e#187#188#0" expanded="true" />
-            <element signature="e#219#220#0" expanded="true" />
-            <element signature="e#249#250#0" expanded="true" />
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#313#314#0" expanded="true" />
-            <element signature="e#343#344#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tasks/PutUsers.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#432#433#0" expanded="true" />
-            <element signature="e#477#478#0" expanded="true" />
-            <element signature="e#341#342#0" expanded="true" />
-            <element signature="e#368#369#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tasks/PostUsers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-132">
+          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/PutUsersModels.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-screenplay-rest/2.6.0/c77466e46446b8699c98bf3cbded015ac24737d6/serenity-screenplay-rest-2.6.0-sources.jar!/net/serenitybdd/screenplay/rest/interactions/Delete.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+          <folding>
+            <element signature="e#783#784#0" expanded="true" />
+            <element signature="e#842#843#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/questions/GetUsersQuestion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tasks/DeleteUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tasks/GetUsers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SerenityInitialTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="121" column="9" selection-start-line="121" selection-start-column="9" selection-end-line="121" selection-end-column="9" />
+        <state relative-caret-position="105">
+          <caret line="141" column="95" selection-start-line="141" selection-start-column="95" selection-end-line="141" selection-end-column="95" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

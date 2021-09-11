@@ -5,11 +5,13 @@ import net.serenitybdd.junit.runners.SerenityRunner;
 import net.serenitybdd.rest.SerenityRest;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.rest.abilities.CallAnApi;
+import net.serenitybdd.screenplay.rest.interactions.Get;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import questions.GetUsersQuestion;
 import questions.ResponseCode;
+import tasks.DeleteUser;
 import tasks.GetUsers;
 import tasks.PostUsers;
 import tasks.PutUsers;
@@ -74,9 +76,9 @@ public class SerenityInitialTests {
 
         Actor director = Actor.named("Manager").whoCan(CallAnApi.at(restApiUrl));
 
-        director.attemptsTo(GetUsers.fromPage(2));
+        director.attemptsTo(Get.resource("/users/23"));
 
-        assertThat(SerenityRest.lastResponse().statusCode()).isEqualTo(300);
+        assertThat(SerenityRest.lastResponse().statusCode()).isEqualTo(404);
 
         //Assert.assertEquals(SerenityRest.lastResponse().statusCode(), equals(300));
 
@@ -129,6 +131,15 @@ public class SerenityInitialTests {
 
         director.should(seeThat("El codigo de respuesta es: ", new ResponseCode(), equalTo(200)));
 
+    }
+
+
+    @Test
+
+    public void deleteUser(){
+
+        director.attemptsTo(DeleteUser.from(1));
+        director.should(seeThat("El codigo de respuesta fue: ", new ResponseCode(), equalTo(204)));
     }
 
 

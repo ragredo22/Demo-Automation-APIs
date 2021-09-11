@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="SerenityInitialTests" skipped="0" tests="7" time="200.73" timestamp="2021-09-11 05:35:03"><testcase classname="SerenityInitialTests" name="Put user with model"/><testcase classname="SerenityInitialTests" name="Post user"/><testcase classname="SerenityInitialTests" name="Post userwith model"/><testcase classname="SerenityInitialTests" name="Post userwith model fail"/><testcase classname="SerenityInitialTests" name="Delete user"><failure message="&#10;Expected: &lt;200&gt;&#10;     but: was &lt;204&gt;" type="java.lang.AssertionError">
+Expected: &lt;200&gt;
+     but: was &lt;204&gt;</failure><system-err>
+Expected: &lt;200&gt;
+     but: was &lt;204&gt;&#13;
+SerenityInitialTests.deleteUser(SerenityInitialTests.java:142)&#13;
+</system-err></testcase><testcase classname="SerenityInitialTests" name="Get user fail"/><testcase classname="SerenityInitialTests" name="Get users"/></testsuite>

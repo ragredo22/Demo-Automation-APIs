@@ -1,13 +1,11 @@
 ## Documentation
 
-Check out our [new documentation site](https://playwright.dev/java)!.
+Check out the [new documentation site](https://serenity-bdd.github.io/theserenitybook/0.0.1/serenity-screenplay-rest.html)!.
 
-You can also browse [javadoc online](https://www.javadoc.io/doc/com.microsoft.playwright/playwright/latest/index.html).
+
 
 ## Contributing
 
-Follow [the instructions](https://github.com/microsoft/playwright-java/blob/master/CONTRIBUTING.md#getting-code) to build the project from source and install the driver.
+Project on Java where I job this automation under the model screenplay-rest, I used gradle too for managed the dependecies.
 
-## Is Playwright for Java ready?
 
-Yes, Playwright for Java is ready. v1.10.0 is the first stable release. Going forward we will adhere to [semantic versioning](https://semver.org/) of the API.
