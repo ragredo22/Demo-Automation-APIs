@@ -5,9 +5,9 @@ import java.util.List;
 public class Users {
 
     private Integer page;
-    private Integer perPage;
+    private Integer per_page;
     private Integer total;
-    private Integer totalPages;
+    private Integer total_pages;
     private List<Datum> data = null;
 
 
@@ -19,12 +19,12 @@ public class Users {
         this.page = page;
     }
 
-    public Integer getPerPage() {
-        return perPage;
+    public Integer getPer_page() {
+        return per_page;
     }
 
-    public void setPerPage(Integer perPage) {
-        this.perPage = perPage;
+    public void setPer_page(Integer per_page) {
+        this.per_page = per_page;
     }
 
     public Integer getTotal() {
@@ -35,12 +35,12 @@ public class Users {
         this.total = total;
     }
 
-    public Integer getTotalPages() {
-        return totalPages;
+    public Integer getTotal_pages() {
+        return total_pages;
     }
 
-    public void setTotalPages(Integer totalPages) {
-        this.totalPages = totalPages;
+    public void setTotal_pages(Integer total_pages) {
+        this.total_pages = total_pages;
     }
 
     public List<Datum> getData() {
